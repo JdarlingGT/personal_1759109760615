@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCraft Portfolio - Crafting Digital Experiences That Perform</title>
+    <meta name="description" content="Professional developer portfolio showcasing semantic web excellence, performance optimization mastery, and accessibility leadership. Technical craftsmanship that delivers results." />
+    <link rel="stylesheet" href="../css/main.css" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="CodeCraft Portfolio - Technical Excellence in Web Development" />
+    <meta property="og:description" content="Semantic web expertise meets performance optimization. See how technical craftsmanship creates digital experiences that perform." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    <meta property="og:url" content="https://codecraft-portfolio.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CodeCraft Portfolio - Technical Excellence" />
+    <meta name="twitter:description" content="Semantic web expertise meets performance optimization mastery" />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "CodeCraft Developer",
+      "jobTitle": "Senior Full-Stack Developer",
+      "description": "Professional developer specializing in semantic web excellence, performance optimization, and accessibility leadership",
+      "url": "https://codecraft-portfolio.com",
+      "sameAs": [
+        "https://github.com/codecraft-dev",
+        "https://linkedin.com/in/codecraft-developer"
+      ],
+      "knowsAbout": [
+        "Semantic HTML5",
+        "Performance Optimization",
+        "Web Accessibility",
+        "Modern CSS",
+        "JavaScript",
+        "Progressive Enhancement"
+      ]
+    }
+    </script>
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fpersonal19487back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-accent text-primary px-4 py-2 rounded-lg font-semibold z-50">Skip to main content</a>
+    
+    <!-- Navigation Header -->
+    <header class="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-40" role="banner">
+        <nav class="container-max section-padding py-4" role="navigation" aria-label="Main navigation">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-accent" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+                        <path d="M8 4L4 8v16l4 4h16l4-4V8l-4-4H8zm2 2h12l2 2v12l-2 2H10l-2-2V8l2-2zm2 4v8h2V12h4v6h2v-8h-8zm2 2h4v2h-4v-2z"/>
+                    </svg>
+                    <span class="text-xl font-bold text-gradient">CodeCraft</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex items-center space-x-8" role="menubar">
+                    <li role="none"><a href="homepage_developer_portfolio.html" class="text-primary font-semibold border-b-2 border-accent" role="menuitem" aria-current="page">Home</a></li>
+                    <li role="none"><a href="about_technical_professional.html" class="text-text-secondary hover:text-primary transition-smooth" role="menuitem">About</a></li>
+                    <li role="none"><a href="projects_portfolio_showcase.html" class="text-text-secondary hover:text-primary transition-smooth" role="menuitem">Projects</a></li>
+                    <li role="none"><a href="blog_technical_thought_leadership.html" class="text-text-secondary hover:text-primary transition-smooth" role="menuitem">Blog</a></li>
+                    <li role="none"><a href="contact_professional_gateway.html" class="btn-accent" role="menuitem">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 text-text-secondary hover:text-primary" aria-label="Toggle mobile menu" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="md:hidden mt-4 pb-4 border-t border-border hidden" id="mobile-menu">
+                <ul class="space-y-2 pt-4" role="menu">
+                    <li><a href="homepage_developer_portfolio.html" class="block py-2 text-primary font-semibold" role="menuitem" aria-current="page">Home</a></li>
+                    <li><a href="about_technical_professional.html" class="block py-2 text-text-secondary hover:text-primary transition-smooth" role="menuitem">About</a></li>
+                    <li><a href="projects_portfolio_showcase.html" class="block py-2 text-text-secondary hover:text-primary transition-smooth" role="menuitem">Projects</a></li>
+                    <li><a href="blog_technical_thought_leadership.html" class="block py-2 text-text-secondary hover:text-primary transition-smooth" role="menuitem">Blog</a></li>
+                    <li><a href="contact_professional_gateway.html" class="block py-2 text-accent font-semibold" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-900 via-primary-800 to-secondary-900 text-white overflow-hidden" aria-labelledby="hero-heading">
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-10">
+                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <defs>
+                        <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                            <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                        </pattern>
+                    </defs>
+                    <rect width="100" height="100" fill="url(#grid)"/>
+                </svg>
+            </div>
+            
+            <!-- Floating Code Elements -->
+            <div class="absolute top-20 left-10 opacity-20 animate-pulse">
+                <div class="code-block text-xs">
+                    &lt;semantic&gt;<br />
+                    &nbsp;&nbsp;excellence<br />
+                    &lt;/semantic&gt;
+                </div>
+            </div>
+            <div class="absolute bottom-32 right-16 opacity-20 animate-pulse delay-1000">
+                <div class="code-block text-xs">
+                    performance: {<br />
+                    &nbsp;&nbsp;TTI: '&lt;1s'<br />
+                    }
+                </div>
+            </div>
+            
+            <div class="container-max section-padding text-center relative z-10">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Performance Badge -->
+                    <div class="inline-flex items-center space-x-2 bg-accent/10 border border-accent/30 rounded-full px-4 py-2 mb-8">
+                        <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-accent font-medium">100% Lighthouse Score</span>
+                    </div>
+                    
+                    <!-- Main Headline -->
+                    <h1 id="hero-heading" class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                        Crafting Digital<br />
+                        <span class="text-gradient">Experiences</span><br />
+                        That <span class="text-accent">Perform</span>
+                    </h1>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-xl md:text-2xl text-secondary-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+                        Where semantic web excellence meets performance optimization mastery. 
+                        Building accessible, fast, and future-proof digital experiences that deliver measurable results.
+                    </p>
+                    
+                    <!-- Performance Metrics Dashboard -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-2xl mx-auto">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="text-2xl font-bold text-accent">100</div>
+                            <div class="text-sm text-secondary-200">Lighthouse</div>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="text-2xl font-bold text-accent">&lt;1s</div>
+                            <div class="text-sm text-secondary-200">TTI</div>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="text-2xl font-bold text-accent">AA</div>
+                            <div class="text-sm text-secondary-200">WCAG</div>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <div class="text-2xl font-bold text-accent">98%</div>
+                            <div class="text-sm text-secondary-200">Core Vitals</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Call to Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <a href="projects_portfolio_showcase.html" class="btn-accent text-lg px-8 py-4 inline-flex items-center space-x-2">
+                            <span>View Technical Case Studies</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold transition-all duration-250 ease-out inline-flex items-center space-x-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Skills Showcase Section -->
+        <section class="section-padding bg-surface" aria-labelledby="skills-heading">
+            <div class="container-max">
+                <div class="text-center mb-16">
+                    <h2 id="skills-heading" class="text-3xl md:text-4xl font-bold text-primary mb-4">
+                        Technical Excellence in Action
+                    </h2>
+                    <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                        Demonstrating semantic web expertise, performance optimization mastery, and accessibility leadership through real code examples.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Semantic HTML -->
+                    <div class="card hover:shadow-interactive transition-all duration-300">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-primary">Semantic Web Excellence</h3>
+                        </div>
+                        <p class="text-text-secondary mb-4">
+                            Crafting meaningful HTML5 structures with proper landmark roles, heading hierarchy, and microdata implementation for enhanced SEO and accessibility.
+                        </p>
+                        <div class="code-block">
+                            &lt;article role="main"&gt;<br />
+                            &nbsp;&nbsp;&lt;header&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Project Title&lt;/h1&gt;<br />
+                            &nbsp;&nbsp;&lt;/header&gt;<br />
+                            &lt;/article&gt;
+                        </div>
+                    </div>
+                    
+                    <!-- Performance Optimization -->
+                    <div class="card hover:shadow-interactive transition-all duration-300">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <div class="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.293l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-primary">Performance Mastery</h3>
+                        </div>
+                        <p class="text-text-secondary mb-4">
+                            Achieving sub-1-second load times through critical CSS inlining, resource optimization, and progressive enhancement strategies.
+                        </p>
+                        <div class="code-block">
+                            // Critical CSS inline<br />
+                            &lt;style&gt;.hero{display:flex}&lt;/style&gt;<br />
+                            // Lazy load non-critical<br />
+                            &lt;link rel="preload" href="style.css"&gt;
+                        </div>
+                    </div>
+                    
+                    <!-- Accessibility Leadership -->
+                    <div class="card hover:shadow-interactive transition-all duration-300">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-primary">Accessibility Leadership</h3>
+                        </div>
+                        <p class="text-text-secondary mb-4">
+                            Ensuring WCAG 2.1 AA compliance with keyboard navigation, screen reader optimization, and inclusive design patterns.
+                        </p>
+                        <div class="code-block">
+                            &lt;button aria-label="Close dialog"<br />
+                            &nbsp;&nbsp;aria-expanded="false"<br />
+                            &nbsp;&nbsp;role="button"&gt;<br />
+                            &nbsp;&nbsp;✕<br />
+                            &lt;/button&gt;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="section-padding bg-background" aria-labelledby="projects-heading">
+            <div class="container-max">
+                <div class="text-center mb-16">
+                    <h2 id="projects-heading" class="text-3xl md:text-4xl font-bold text-primary mb-4">
+                        Featured Technical Case Studies
+                    </h2>
+                    <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                        Real-world projects showcasing performance optimization, semantic markup excellence, and measurable business impact.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <article class="card hover:shadow-interactive transition-all duration-300 group">
+                        <div class="aspect-video bg-gradient-to-br from-primary to-accent rounded-lg mb-6 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="E-commerce platform dashboard showing performance metrics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        </div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-success/10 text-success px-3 py-1 rounded-full text-sm font-medium">E-commerce</span>
+                            <div class="flex items-center space-x-2 text-sm text-text-secondary">
+                                <span class="text-accent font-semibold">98% TTI</span>
+                                <span>•</span>
+                                <span>+40% Conversion</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold text-primary mb-3">High-Performance E-commerce Platform</h3>
+                        <p class="text-text-secondary mb-4">
+                            Transformed a legacy e-commerce site achieving 98% Core Web Vitals score and 40% conversion rate improvement through semantic restructuring and performance optimization.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-3 h-3 bg-accent rounded-full"></span>
+                                <span class="text-sm text-text-secondary">React, Node.js, MongoDB</span>
+                            </div>
+                            <a href="projects_portfolio_showcase.html" class="text-accent hover:text-accent-600 font-medium inline-flex items-center space-x-1">
+                                <span>View Case Study</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 2 -->
+                    <article class="card hover:shadow-interactive transition-all duration-300 group">
+                        <div class="aspect-video bg-gradient-to-br from-secondary to-primary rounded-lg mb-6 overflow-hidden">
+                            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Healthcare application interface with accessibility features" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        </div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">Healthcare</span>
+                            <div class="flex items-center space-x-2 text-sm text-text-secondary">
+                                <span class="text-accent font-semibold">WCAG AA</span>
+                                <span>•</span>
+                                <span>100% Accessible</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold text-primary mb-3">Accessible Healthcare Portal</h3>
+                        <p class="text-text-secondary mb-4">
+                            Built a fully accessible patient portal with semantic HTML5, ARIA implementation, and keyboard navigation, serving 50,000+ users with diverse accessibility needs.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-3 h-3 bg-primary rounded-full"></span>
+                                <span class="text-sm text-text-secondary">Vue.js, Express, PostgreSQL</span>
+                            </div>
+                            <a href="projects_portfolio_showcase.html" class="text-accent hover:text-accent-600 font-medium inline-flex items-center space-x-1">
+                                <span>View Case Study</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 3 -->
+                    <article class="card hover:shadow-interactive transition-all duration-300 group">
+                        <div class="aspect-video bg-gradient-to-br from-accent to-secondary rounded-lg mb-6 overflow-hidden">
+                            <img src="https://images.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Financial dashboard with real-time data visualization" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        </div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-warning/10 text-warning px-3 py-1 rounded-full text-sm font-medium">FinTech</span>
+                            <div class="flex items-center space-x-2 text-sm text-text-secondary">
+                                <span class="text-accent font-semibold">&lt;0.8s LCP</span>
+                                <span>•</span>
+                                <span>Real-time Data</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold text-primary mb-3">Real-time Financial Dashboard</h3>
+                        <p class="text-text-secondary mb-4">
+                            Developed a high-performance financial dashboard with real-time data updates, achieving sub-800ms LCP while handling 10,000+ concurrent users.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-3 h-3 bg-warning rounded-full"></span>
+                                <span class="text-sm text-text-secondary">Angular, WebSocket, Redis</span>
+                            </div>
+                            <a href="projects_portfolio_showcase.html" class="text-accent hover:text-accent-600 font-medium inline-flex items-center space-x-1">
+                                <span>View Case Study</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <a href="projects_portfolio_showcase.html" class="btn-primary text-lg px-8 py-4 inline-flex items-center space-x-2">
+                        <span>View All Projects</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="section-padding bg-gradient-to-r from-primary to-secondary text-white" aria-labelledby="cta-heading">
+            <div class="container-max text-center">
+                <h2 id="cta-heading" class="text-3xl md:text-4xl font-bold mb-4">
+                    Ready to Build Something Exceptional?
+                </h2>
+                <p class="text-xl text-secondary-200 mb-8 max-w-2xl mx-auto">
+                    Let's discuss how semantic web excellence and performance optimization can transform your digital presence and drive measurable business results.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="contact_professional_gateway.html" class="btn-accent text-lg px-8 py-4 inline-flex items-center space-x-2">
+                        <span>Start a Project</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </a>
+                    <a href="blog_technical_thought_leadership.html" class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold transition-all duration-250 ease-out inline-flex items-center space-x-2">
+                        <span>Read Technical Insights</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white section-padding" role="contentinfo">
+        <div class="container-max">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <svg class="w-8 h-8 text-accent" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M8 4L4 8v16l4 4h16l4-4V8l-4-4H8zm2 2h12l2 2v12l-2 2H10l-2-2V8l2-2zm2 4v8h2V12h4v6h2v-8h-8zm2 2h4v2h-4v-2z"/>
+                        </svg>
+                        <span class="text-xl font-bold text-gradient">CodeCraft Portfolio</span>
+                    </div>
+                    <p class="text-secondary-300 mb-4 max-w-md">
+                        Professional developer specializing in semantic web excellence, performance optimization, and accessibility leadership. Crafting digital experiences that perform.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-secondary-400 hover:text-accent transition-smooth" aria-label="GitHub Profile">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary-400 hover:text-accent transition-smooth" aria-label="LinkedIn Profile">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary-400 hover:text-accent transition-smooth" aria-label="Twitter Profile">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about_technical_professional.html" class="text-secondary-300 hover:text-accent transition-smooth">About</a></li>
+                        <li><a href="projects_portfolio_showcase.html" class="text-secondary-300 hover:text-accent transition-smooth">Projects</a></li>
+                        <li><a href="blog_technical_thought_leadership.html" class="text-secondary-300 hover:text-accent transition-smooth">Blog</a></li>
+                        <li><a href="contact_professional_gateway.html" class="text-secondary-300 hover:text-accent transition-smooth">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><span class="text-secondary-300">Performance Optimization</span></li>
+                        <li><span class="text-secondary-300">Accessibility Audits</span></li>
+                        <li><span class="text-secondary-300">Semantic Web Development</span></li>
+                        <li><span class="text-secondary-300">Technical Consulting</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-secondary-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-secondary-400 text-sm">
+                    © 2025 CodeCraft Portfolio. All Rights Reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-secondary-400 hover:text-accent text-sm transition-smooth">Privacy Policy</a>
+                    <a href="#" class="text-secondary-400 hover:text-accent text-sm transition-smooth">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
